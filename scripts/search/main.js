@@ -1,0 +1,8 @@
+function search(){
+  var unit_converter_websites = ["UNIT CONVERTER WEBSITE","UNIT CONVERTERS","UNIT CONVERTER","Unit Converter Website","Unit Converters","Unit Converter","Unit converter website","Unit converters","Unit converter","Unit Converter website","Unit converter Website","unit Converter website","unit converter Website","unit Converter Website","Unit Converter website","unit Converters","unit converter website","unit converters","unit Converter","unit converter"];
+  var ounces_in_gallon = ["HOW MANY OUNCES IN A GALLON","HOW MANY OUNCES IN ONE GALLON","OUNCES IN A GALLON","How Many Ounces In A Gallon","How Many Ounces In One Gallon","Ounces In A Gallon","How many ounces in a gallon","How many ounces in one gallon","Ounces in a gallon","how many ounces in a gallon","howm many ounces in one gallon","ounces in a gallon"];
+  var bar = document.getElementById("search").value;
+  if(bar == unit_converter_websites[0] || bar == unit_converter_websites[1] || bar == unit_converter_websites[2] || bar == unit_converter_websites[3] || bar == unit_converter_websites[4] || bar == unit_converter_websites[5] || bar == unit_converter_websites[6] || bar == unit_converter_websites[7] || bar == unit_converter_websites[8] || bar == unit_converter_websites[9] || bar == unit_converter_websites[10] || bar == unit_converter_websites[11] || bar == unit_converter_websites[12] || bar == unit_converter_websites[13] || bar == unit_converter_websites[14] || bar == unit_converter_websites[15] || bar == unit_converter_websites[16] || bar == unit_converter_websites[17] || bar == unit_converter_websites[18] || bar == unit_converter_websites[19]){
+    document.getElementById("results").innerHTML = "<a href='https://www.unitconverters.net/'>Unit Converter</a>";
+  }
+}
